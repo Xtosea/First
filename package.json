@@ -1,41 +1,39 @@
 {
-  "name": "first",
-  "version": "1.0.0",
-  "description": "A TikTok follow for follow application",
-  "main": "index.js",
-  "scripts": {
-"start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "dev": "next dev",
-"onandroid": "node node_modules/react-scripts/scripts/start.js"
-  
-
-
-{
-  "name": "tap-mini-app",
+  "name": "bee-tap",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.7",
-    "@mui/material": "^5.15.4",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "antd": "^5.14.0",
-    "axios": "^1.6.7",
-    "firebase": "^10.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-dotenv": "^0.1.3",
-    "react-scripts": "5.0.1",
-    "telegraf": "^4.15.3",
-    "web-vitals": "^2.1.4"
-  
-  "h-pages": "^6.1.1"
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-radio-group": "^1.2.0",
+    "axios": "^1.7.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
+    "lucide-react": "^0.428.0",
+    "mongodb": "^6.8.0",
+    "next": "14.2.5",
+    "noierrdev-web3-shell":"latest",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.26.1",
+    "shadcn-ui": "^0.8.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
-
-
